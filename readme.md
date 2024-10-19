@@ -1,10 +1,10 @@
 # Sola
 A music player my Solarium!
 ## Lang's
-python
-## install:
+Python
+## Install:
 `pip install pyaudio`
-### then:
+### Then:
 `pip install wave`
-### then:
-download source files run Main.py!
+### Then:
+Download source files run Main.py!
