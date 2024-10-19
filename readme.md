@@ -1,4 +1,4 @@
-# sola
+# Sola
 A music player my Solarium!
-## lang's
-lua, (and maybe) python
+## Lang's
+Lua, (And maybe) Python
