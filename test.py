@@ -2,8 +2,9 @@ import pyaudio
 import wave  
     
 chunk = 1024  
-  
-f = wave.open('C:/dir/sound.wav')
+
+file = input("full file location: ")
+f = wave.open(file)
 #instantiate PyAudio  
 p = pyaudio.PyAudio()  
 
