@@ -7,4 +7,4 @@ Only python probably
 ### then:
 `pip install wave`
 ### then:
-download and run Main.py!
+download source files run Main.py!
