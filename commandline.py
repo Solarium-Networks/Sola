@@ -3,6 +3,7 @@ import wave
     
 chunk = 1024  
 
+print("welcome to the sola command line audio player! this supports: .wav or .mp3!")
 file = input("full file location: ")
 f = wave.open(file)
 #instantiate PyAudio  
