@@ -1,5 +1,5 @@
 # Sola
 A music player my Solarium!
 ## Lang's
-Lua, (And maybe) Python
+Only python probably
 # MAKE SURE TO pip install pyaudio and also pip install wave
