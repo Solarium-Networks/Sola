@@ -2,4 +2,9 @@
 A music player my Solarium!
 ## Lang's
 Only python probably
-# MAKE SURE TO pip install pyaudio and also pip install wave
+## install:
+`pip install pyaudio`
+### then:
+`pip install wave`
+### then:
+download and run Main.py!
