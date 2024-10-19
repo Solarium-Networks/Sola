@@ -10,3 +10,5 @@ Python
 `pip install Tkinter`
 ### Then:
 Download source files run Main.py!
+> ![NOTE:]
+> This media player is WIP!
