@@ -7,4 +7,6 @@ Python
 ### Then:
 `pip install wave`
 ### Then:
+`pip install Tkinter`
+### Then:
 Download source files run Main.py!
