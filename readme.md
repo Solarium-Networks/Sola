@@ -1,7 +1,7 @@
 # Sola
 A music player my Solarium!
 ## Lang's
-Only python probably
+python
 ## install:
 `pip install pyaudio`
 ### then:
