@@ -31,7 +31,7 @@ stop_img = tk.PhotoImage(file=stop_img_path)
 def play_audio():
     global stop_flag
     stop_flag = False
-    file = filedialog.askopenfilename(filetypes=[("Audio Files", "*.wav;*.mp3"), ("WAV files", "*.wav"), ("MP3 files", "*.mp3")])
+    file = filedialog.askopenfilename(filetypes=[("WAV files", "*.wav")])
     if not file:
         return
 
