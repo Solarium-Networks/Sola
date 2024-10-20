@@ -1,24 +1,18 @@
 import platform
 import os
 import subprocess
-
-def get_username():
-  if platform.system() == "Windows":
-    return os.getlogin()  # or os.environ['USERNAME']
-  else:
-    return os.getenv('USER')
-
-username = get_username()
+#fixes directory issues
+base_dir = os.path.dirname(__file__)
 
 if platform.system() == "Windows":
-  cmd_location = rf'C:\Users\{username}\downloads\Sola-1.0\commandline.py'
+  cmd_location = os.path.join(base_dir, "commandline.py")
 else:
-  cmd_location = f'/home/{username}/downloads/Sola-1.0/commandline.py'
+  cmd_location = os.path.join(base_dir, "commandline.py")
 
 if platform.system() == "Windows":
-  ui_location = rf'C:\Users\{username}\downloads\Sola-1.0\ui.py'
+  ui_location = os.path.join(base_dir, "ui.py")
 else:
-  ui_location = f'/home/{username}/downloads/Sola-1.0/ui.py'
+  ui_location = os.path.join(base_dir, "ui.py")
 
 option = input("Welcome to Sola! would you like to use the simple command line player or the UI player? [cmd/ui]: ")
 if option == "cmd":
