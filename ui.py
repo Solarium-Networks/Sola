@@ -3,6 +3,7 @@ from tkinter import filedialog, messagebox
 import pyaudio
 import wave
 import threading
+import os
 
 # Initialize Tkinter root
 root = tk.Tk()
@@ -14,6 +15,17 @@ p = pyaudio.PyAudio()
 
 # Flag to stop audio playback
 stop_flag = False
+
+# Get the directory of the current script
+base_dir = os.path.dirname(__file__)
+
+# Construct the full path to the icons
+open_img_path = os.path.join(base_dir, "app", "icons", "open.png")
+stop_img_path = os.path.join(base_dir, "app", "icons", "stop.png")
+
+# Load images for buttons (make sure the paths are correct)
+open_img = tk.PhotoImage(file=open_img_path)
+stop_img = tk.PhotoImage(file=stop_img_path)
 
 # Function to open file dialog and play the audio
 def play_audio():
@@ -39,6 +51,7 @@ def play_audio():
 
         stream.stop_stream()
         stream.close()
+        f.close()
 
         if not stop_flag:
             messagebox.showinfo("Playback", "Playback finished")
@@ -55,11 +68,12 @@ def stop_audio_playback():
     global stop_flag
     stop_flag = True
 
-# Add a button to play audio
-play_button = tk.Button(root, text="Select and Play Audio", command=start_audio_thread)
+# Add a button to play audio (with image)
+play_button = tk.Button(root, image=open_img, command=start_audio_thread)
 play_button.pack(pady=20)
 
-stop_button = tk.Button(root, text="Stop", command=stop_audio_playback)
+# Add a stop button (with image)
+stop_button = tk.Button(root, image=stop_img, command=stop_audio_playback)
 stop_button.pack()
 
 # Run the Tkinter event loop
