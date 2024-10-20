@@ -11,9 +11,11 @@ Python
 `pip install Tkinter`
 ### Then:
 Download source files run Main.py!
-## reqirments:
+## requirements:
 `Tkinter`
 `windows`
 `python 3.12.9`
+## supports:
+`wav`
 > [!NOTE]
 > This media player is WIP!
