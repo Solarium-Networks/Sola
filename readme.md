@@ -1,3 +1,4 @@
+![[image]https://github.com/Solarium-Networks/Sola/blob/main/src/SolaIcon.png?raw=true](https://github.com/Solarium-Networks/Sola/blob/main/src/SolaIcon.png?raw=true)
 # Sola
 A music player my Solarium!
 ## Lang's
