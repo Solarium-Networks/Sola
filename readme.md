@@ -13,7 +13,7 @@ Python
 Download source files run Main.py!
 ## requirements:
 `Tkinter`
-`windows`
+`windows, linux`
 `python 3.12.9`
 ## supports:
 `wav`
