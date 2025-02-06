@@ -9,6 +9,7 @@ import os
 root = tk.Tk()
 root.title("Sola Audio Player")
 root.geometry("400x200")
+root.iconbitmap("SolaIcon.ico")
 
 chunk = 1024
 p = pyaudio.PyAudio()
