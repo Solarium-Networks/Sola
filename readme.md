@@ -10,7 +10,7 @@ Python
 ### Then:
 `pip install Tkinter`
 ### Then:
-Download source files run Main.py!
+Download source files and run Main.py!
 ## requirements:
 `Tkinter`
 `windows, linux`
