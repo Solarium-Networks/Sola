@@ -4,7 +4,7 @@ A music player by Solarium!
 ## Lang's
 Python
 ## Install:
-+ Install python [here](https://www.python.org/downloads/).
++ Install python [here](https://www.python.org/downloads/). MAKE SURE TO USE 3.13!!!!!
 + Download source files [here](https://github.com/Solarium-Networks/Sola/releases/download/1.3/Sola-1.3.zip).
 + Open you systems command prompt.
 + Cd to the directory you installed sola in. Example command: `cd C:/Users/terps/Downloads/Sola-1.3`
